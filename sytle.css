@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(rgb(255, 120, 120), rgba(255, 255, 255, 0.933));
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 81, 81, 0.933);
+    color: aliceblue;
+    text-align: center;
+}
+
+header ul li {
+    list-style: none;
+}
+
+section form ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+section form ul li label {
+    font-size: 22px;
+}
+
+.cabeca {
+    position: relative;
+    background: rgba(255, 192, 192, 0.4);
+    padding: 10px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+section button {
+    margin: 5px;
+    font-size: 20px;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: medium;
+    padding: 10px;
+    text-align: center;
+    width: 600px;
+}
+
+.botao {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.estorno {
+    margin-left: 15%;
+}
+
+.table {
+    margin-top: 2%;
+}
+
+.export {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    margin-left: 48%;
+}
+
